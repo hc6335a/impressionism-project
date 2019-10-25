@@ -226,6 +226,7 @@ grid-row:  1 / 2;
 	font-size: 16px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	padding: 1em;
 }
 
 .intro-beginnings {
