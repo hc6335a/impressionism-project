@@ -220,6 +220,7 @@ grid-row:  1 / 2;
 .body-text-beginnings {
 	line-height: 1.5em;
 	color: #22354B;
+	font-family: 'Raleway';
 	font-size: 16px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
