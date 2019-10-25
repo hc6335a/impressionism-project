@@ -182,20 +182,20 @@ grid-row:  1 / 2;
 
 
 /* ------------------------------------------------------------ */
-/* start beginnings page */
+/* start beginings page */
 /* ------------------------------------------------------------ */
 
 
 
 
-.beginnings {
+.beginings {
 	font-family: "Jomolhari", 'Raleway', Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #222;
 }
 
-.headings-beginnings {
+.headings-beginings {
 	background-image-align: center;
 	margin-left: 0;
 	margin-right: 0;
@@ -206,14 +206,14 @@ grid-row:  1 / 2;
 	height: 500px;
 }
 
-.beginnings h1 {
+.beginings h1 {
 	padding: 2em;
 	font-size: 70px;
 	color: #22354B;
 	text-align: center;
 }
 
-.body-text-beginnings {
+.body-text-beginings {
 	line-height: 1em;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
