@@ -190,14 +190,16 @@ grid-row:  1 / 2;
 
 
 
-.beginings {
+.beginnings-heading {
 	font-family: "Jomolhari", 'Raleway', Helvetica, Arial, sans-serif;
-	font-size: 16px;
-	line-height: 1.5em;
+	line-height: 1em;
 	color: #222;
+	padding-bottom: 1em;
+	color: #22354B;
+	font-size: 70px;
 }
 
-.headings-beginings {
+.headings-beginnings {
 	background-image-align: center;
 	margin-left: 0;
 	margin-right: 0;
@@ -208,14 +210,14 @@ grid-row:  1 / 2;
 	height: 500px;
 }
 
-.beginings h1 {
+.beginnings {
 	padding: 2em;
-	font-size: 70px;
+	font-size: 16px;
 	color: #22354B;
 	text-align: center;
 }
 
-.body-text-beginings {
+.body-text-beginnings {
 	line-height: 1em;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
