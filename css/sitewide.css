@@ -97,11 +97,11 @@ h2 {
 
 .homepage-body-text {
 	margin-top: 2em;
-	margin-left: 30%;
-	margin-right: 30%;
+	margin-left: 15%;
+	margin-right: 15%;
 	margin-bottom: 5em;
 	text-align: center;
-	width: 40%;
+	width: 60%;
 	padding: 2em;
 	display: grid;
 	grid-template: 1fr;
