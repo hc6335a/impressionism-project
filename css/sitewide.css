@@ -221,6 +221,11 @@ grid-row:  1 / 2;
 	grid-template-columns: 1fr 1fr;
 }
 
+.intro-beginnings {
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+}
+
 .academie {
 	grid-column: 2 / 3;
 	grid-row: 1 / 2;
