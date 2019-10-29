@@ -269,15 +269,20 @@ grid-row:  1 / 2;
 }
 
 .techniques h1 {
+	font-family: 'Jomolhari';
 	padding: 2em;
 	font-size: 70px;
 	color: #22354B;
 	text-align: center;
 }
 
-h1 {
-	font-family: 'Jomolhari';
+.techniques-body-text {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	font-family: 'Raleway';
 }
+
+
 
 /* ------------------------------------------------------------ */
 /* media query containing styles for larger screens */
