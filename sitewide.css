@@ -242,6 +242,43 @@ grid-row:  1 / 2;
 	grid-row: 2 / 3;
 }
 
+
+
+
+/* ------------------------------------------------------------ */
+/* start techniques page */
+/* ------------------------------------------------------------ */
+
+
+.techniques {
+	font-family: "Jomolhari", 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #222;
+}
+
+.headings-techniques {
+	background-image-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 2em;
+	text-align: center;
+	width: 100%;
+	background-image: url("../img/Camille_Pissarro_-_Boulevard_Montmartre_-_Eremitage.jpg");
+	height: 500px;
+}
+
+.techniques h1 {
+	padding: 2em;
+	font-size: 70px;
+	color: #22354B;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Jomolhari';
+}
+
 /* ------------------------------------------------------------ */
 /* media query containing styles for larger screens */
 @media (min-width: 720px) {
