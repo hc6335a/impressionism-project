@@ -250,6 +250,8 @@ grid-row:  1 / 2;
 /* ------------------------------------------------------------ */
 
 
+
+
 .techniques {
 	font-family: "Jomolhari", 'Raleway', Helvetica, Arial, sans-serif;
 	font-size: 16px;
@@ -283,6 +285,47 @@ grid-row:  1 / 2;
 }
 
 
+
+
+
+/* ------------------------------------------------------------ */
+/* start influence page */
+/* ------------------------------------------------------------ */
+
+
+
+
+.influence {
+	font-family: "Jomolhari", 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #222;
+}
+
+.headings-influence {
+	background-image-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 2em;
+	text-align: center;
+	width: 100%;
+	background-image: url("../img/Camille_Pissarro_-_Boulevard_Montmartre_-_Eremitage.jpg");
+	height: 500px;
+}
+
+.influence h1 {
+	font-family: 'Jomolhari';
+	padding: 2em;
+	font-size: 70px;
+	color: #22354B;
+	text-align: center;
+}
+
+.influnce-body-text {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	
+}
 
 /* ------------------------------------------------------------ */
 /* media query containing styles for larger screens */
