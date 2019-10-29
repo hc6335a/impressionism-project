@@ -310,8 +310,44 @@ grid-row:  1 / 2;
 
 .techniques-body-text {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	font-family: "Raleway";
+}
+
+.techniques-intro {
+	grid-column: 1 / 4;
+	grid-row: 1 / 2;
+	padding: 2em;
+}
+
+.list-intro {
+	grid-column: 1 / 3;
+	grid-row: 2 / 3;
+	padding: 2em;
+}
+
+.technology {
+	grid-column: 1 / 4;
+	grid-row: 3 / 4;
+	padding: 2em;
+}
+
+.composition {
+	grid-column: 3 / 6;
+	grid-row: 4 / 5;
+	padding: 2em;
+}
+
+.photography {
+	grid-column: 1 / 3;
+	grid-row: 5 / 6;
+	padding: 2em;
+}
+
+.japanese-influence {
+	grid-column: 4 / 6;
+	grid-row: 5 / 6;
+	padding: 2em;
 }
 
 
@@ -351,15 +387,33 @@ grid-row:  1 / 2;
 	text-align: center;
 }
 
-.associates-and-influenced-artists {
+h2 {
+	line-height: 1em;
+}
+
+.associates-and-influenced-artists1 {
 	grid-column: 1 / 2;
 	grid-row: 1 / 2;
+	padding: 2em;
+}
+
+.associates-and-influenced-artists2 {
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	padding: 2em;
+}
+
+.post-impressionism {
+	grid-column: 1 / 2;
+	grid-row: 3 / 4;
+	padding: 2em;
 }
 
 .influence-body-text {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	color: red;
+	margin: 1em;
+	font-family: "Raleway";
 
 
 
