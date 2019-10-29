@@ -253,7 +253,7 @@ grid-row:  1 / 2;
 
 
 .techniques {
-	font-family: "Jomolhari", 'Raleway', Helvetica, Arial, sans-serif;
+	font-family: "Jomolhari", "Raleway", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #222;
@@ -271,7 +271,7 @@ grid-row:  1 / 2;
 }
 
 .techniques h1 {
-	font-family: 'Jomolhari';
+	font-family: "Jomolhari";
 	padding: 2em;
 	font-size: 70px;
 	color: #22354B;
@@ -281,7 +281,7 @@ grid-row:  1 / 2;
 .techniques-body-text {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	font-family: 'Raleway';
+	font-family: "Raleway";
 }
 
 
@@ -324,7 +324,7 @@ grid-row:  1 / 2;
 .influnce-body-text {
 	display:grid;
 	grid-template-columns: 1fr 1fr;
-	
+
 }
 
 /* ------------------------------------------------------------ */
