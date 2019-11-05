@@ -68,11 +68,12 @@ div, main, article, section, aside, hgroup, header, footer, address, nav {
 	flex-wrap: nowrap;
 	justify-content: center;
 	justify-content: space-evenly;
+	background-color: rgba(500, 500, 500, 0.3);
 }
 
 .navbar a:hover {
 	transition-duration: 1s;
-	background-color: #aabbff;
+	background-color: rgba(500, 500, 500, 0.8)
 }
 
 .headings-home {
@@ -313,7 +314,43 @@ grid-row:  3 / 4;
 }
 
 .cassat {
+	padding: 2em;
+	line-height: 2em;
+	font-size: 35px;
+	grid-column: 1 / 2;
+	grid-row: 16 / 17;
+}
 
+.cassat-img-1 {
+	padding: 2em;
+	grid-column: 2 / 3;
+	grid-row: 16 / 18;
+}
+
+.cassat-img-2 {
+	padding: 2em;
+	grid-column: 1 / 2;
+	grid-row: 17 / 18;
+}
+
+.gustave {
+	padding: 2em;
+	line-height: 2em;
+	font-size: 35px;
+	grid-column: 2 / 3;
+	grid-row: 18 / 19;
+}
+
+.gustave-img-1 {
+	padding: 2em;
+	grid-column: 1 / 2;
+	grid-row: 18 / 20;
+}
+
+.gustave-img-2 {
+	padding: 2em;
+	grid-column: 2 / 3;
+	grid-row: 19 / 20;
 }
 
 /* ------------------------------------------------------------ */
@@ -344,7 +381,6 @@ grid-row:  3 / 4;
 }
 
 .beginnings {
-	padding: 2em;
 	font-size: 16px;
 	color: #22354B;
 	text-align: center;
