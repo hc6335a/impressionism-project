@@ -60,18 +60,19 @@ div, main, article, section, aside, hgroup, header, footer, address, nav {
 
 .navbar {
 	text-align: center;
-	margin-left: 10%;
-	margin-right: 10%;
-	width: 80%;
+	margin-left: 0%;
+	margin-right: 0%;
+	width: 100%;
 	display: flex;
-	flex-grow: 1;
+	flex-grow: 0;
 	flex-shrink: 1;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
+	background-color: rgba(200, 200, 250, 0.5);
 }
 
 .navbar a:hover {
 	transition-duration: 1s;
-	background-color: #aabbff;
+	background-color: rgba(100, 100, 200, 0.7);
 }
 
 .headings-home {
@@ -213,7 +214,6 @@ grid-row:  1 / 2;
 }
 
 .beginnings {
-	padding: 2em;
 	font-size: 16px;
 	color: #22354B;
 	text-align: center;
@@ -310,43 +310,43 @@ grid-row:  1 / 2;
 
 .techniques-body-text {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	font-family: "Raleway";
 }
 
 .techniques-intro {
-	grid-column: 1 / 4;
+	grid-column: 1 / 3;
 	grid-row: 1 / 2;
 	padding: 2em;
 }
 
 .list-intro {
-	grid-column: 1 / 3;
+	grid-column: 1 / 2;
 	grid-row: 2 / 3;
 	padding: 2em;
 }
 
 .technology {
-	grid-column: 1 / 4;
+	grid-column: 2 / 3;
 	grid-row: 3 / 4;
 	padding: 2em;
 }
 
 .composition {
-	grid-column: 3 / 6;
+	grid-column: 1 / 2;
 	grid-row: 4 / 5;
 	padding: 2em;
 }
 
 .photography {
-	grid-column: 1 / 3;
+	grid-column: 2 / 3;
 	grid-row: 5 / 6;
 	padding: 2em;
 }
 
 .japanese-influence {
-	grid-column: 4 / 6;
-	grid-row: 5 / 6;
+	grid-column: 1 / 2;
+	grid-row: 6 / 7;
 	padding: 2em;
 }
 
